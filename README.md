@@ -10,3 +10,4 @@ gantt
     anther task      : 24d
 ```
 
+This text file turns into an HTML Gantt chart. Find that chart [here](https://rawgit.com/mogenson/friendsgiving-oven-usage/master/gantt.html)
