@@ -1,11 +1,12 @@
 ```mermaid
 gantt
+	dateFormat hh-mm
     title Friendsgiving Oven Usage
 
     section Katie
-    Turkey           :crit, a1, 2016-11-05, 5h
+    Turkey           :crit, turkey, 09-30, 5h % start at 9:30 am
     section Mike
-    Potatoes      	 :after a1  , 2h
+    Potatoes      	 :after turkey  , 2h
 ```
 
 This text file turns into an HTML gantt chart. View that chart [here](https://rawgit.com/mogenson/friendsgiving-oven-usage/master/gantt.html).
